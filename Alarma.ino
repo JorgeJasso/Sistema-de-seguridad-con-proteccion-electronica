@@ -1,5 +1,7 @@
 #include <Keypad.h> //Se incluye la libreria Keypad para poder uilizar el teclado matricial.
 
+const byte LEDROJO = 2; //Almacena el valor "2" para utilizarlo en el pin que esta conectado al led rojo dentro de la casa.
+const byte LEDAZUL = 3; //Almacena el valor "3" para utilizarlo en el pin que esta conectado al led azul dentro de la casa.
 const byte REDSWITCH = 4; //Se guarda el valor del pin que tendra el red switch.
 const byte BOCINA = 5; //Indica el valor del pin que tendra la bocina.
 const byte NUMFILAS = 4; //Determina el numero de filas con las que trabajara nuestro teclado matrial.
@@ -22,6 +24,8 @@ String claveIngresada; //Variable utilizada para ir almacenando los caracteres q
 Keypad teclado = Keypad(makeKeymap(tecladoMatricial),pinsFilas,pinsColumnas,NUMFILAS,NUMCOLUMNAS); //Declara una instancia de Keypad indicando los parametros (tecladoMatricial, pinsFilas, pinsColumnas, NUMFILAS, NUMCOLUMNAS).
 
 void setup() {
+  pinMode(LEDROJO,OUTPUT); //Asigna el pin 2 al led rojo dentro de la casa.
+  pinMode(LEDAZUL,OUTPUT); //Asigna el pin 3 al led azul dentro de la casa.
   pinMode(REDSWITCH,INPUT); //Asigna el pin 4 al red switch pero con un valor INPUT.
   pinMode(BOCINA,OUTPUT); //Asigna el pin 5 a la bocina.
   Serial.begin(9600); 
@@ -45,6 +49,13 @@ void loop() {
   if(digitalRead(REDSWITCH)==HIGH){ //Comprueba si el iman se ha alejado del red switch.
     if(estadoAlarma==HIGH){ //Si se alejo y la alarma estaba activada entonces tiene que sonar encendiendo los led rojo y azul.
       tone(BOCINA,587);
+      digitalWrite (LEDROJO, HIGH);
+      delay(500);
+      digitalWrite (LEDROJO, LOW);
+      noTone(BOCINA);
+      digitalWrite (LEDAZUL, HIGH);
+      delay(500);
+      digitalWrite (LEDAZUL, LOW);
     }else{
       delay(5000);
       if(digitalRead(REDSWITCH)==LOW){ //Vuelve a comprobar, si el iman ya esta cerca del red switch.
