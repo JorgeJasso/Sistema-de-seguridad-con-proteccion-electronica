@@ -83,9 +83,13 @@
 
 4.- Ejecuta el archivo descargado.
 
-5.- Abre Arduino IDE y copia el código Alarma.ino
+5.- Descarga la libreria <Keypad.h> y posterirormente pega toda la carpeta en las librerias de arduino.
 
-6.- Conecta tu Arduino y carga el programa.
+6.- Descarga la libreria "LowPower.h" y posterirormente pega toda la carpeta en las librerias de arduino.
 
-7.- Verifica que el programa funcione correctamente.
+7.- Abre Arduino IDE y copia el código Alarma.ino
+
+8.- Conecta tu Arduino y carga el programa.
+
+9.- Verifica que el programa funcione correctamente.
 
