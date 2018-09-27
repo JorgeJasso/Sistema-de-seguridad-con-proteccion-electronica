@@ -54,32 +54,38 @@
 ### Imágenes del montaje
 > Protoboard
 
-<img src="https://github.com/JorgeJasso/Sistema-de-seguridad-con-proteccion-electronica/Imagenes/protoboardFrente.jpg" width="500" height="400">
+<img src="https://github.com/JorgeJasso/Sistema-de-seguridad-con-proteccion-electronica/blob/master/Imagenes/protoboardFrente.jpg" width="500" height="400">
 
-<img src="https://github.com/JorgeJasso/Sistema-de-seguridad-con-proteccion-electronica/Imagenes/protoboardEspalda.jpg" width="500" height="400">
+<img src="https://github.com/JorgeJasso/Sistema-de-seguridad-con-proteccion-electronica/blob/master/Imagenes/protoboardEspalda.jpg" width="500" height="400">
 
-<img src="https://github.com/JorgeJasso/Sistema-de-seguridad-con-proteccion-electronica/Imagenes/protoboardSuperior.jpg" width="500" height="400">
+<img src="https://github.com/JorgeJasso/Sistema-de-seguridad-con-proteccion-electronica/blob/master/Imagenes/protoboardSuperior.jpg" width="500" height="400">
 
 > Arduino
 
-<img src="https://github.com/JorgeJasso/Sistema-de-seguridad-con-proteccion-electronica/Imagenes/arduinoFrente.jpg" width="500" height="400">
+<img src="https://github.com/JorgeJasso/Sistema-de-seguridad-con-proteccion-electronica/blob/master/Imagenes/arduinoFrente.jpg" width="500" height="400">
 
-<img src="https://github.com/JorgeJasso/Sistema-de-seguridad-con-proteccion-electronica/Imagenes/arduinoEspalda.jpg" width="500" height="400">
+<img src="https://github.com/JorgeJasso/Sistema-de-seguridad-con-proteccion-electronica/blob/master/Imagenes/arduinoEspalda.jpg" width="500" height="400">
 
-<img src="https://github.com/JorgeJasso/Sistema-de-seguridad-con-proteccion-electronica/Imagenes/arduinoSuperior.jpg" width="500" height="400">
+<img src="https://github.com/JorgeJasso/Sistema-de-seguridad-con-proteccion-electronica/blob/master/Imagenes/arduinoSuperior.jpg" width="500" height="400">
 
 ## Codificación
  
-<img src="https://github.com/JorgeJasso/Sistema-de-seguridad-con-proteccion-electronica/Imagenes/diagramaDeFlujo.jpg">
+<img src="https://github.com/JorgeJasso/Sistema-de-seguridad-con-proteccion-electronica/blob/master/Imagenes/diagramaDeFlujo.jpg">
 
 
 ## Instalación
  
 1.- Monta circuito mencionado en este documento. 
+
 2.- Descarga Arduino IDE del siguiente link https://www.arduino.cc/en/Main/Software
-3.- Elige la arquitectura de tu computadora
-4.- Ejecuta el archivo descargado
+
+3.- Elige la arquitectura de tu computadora.
+
+4.- Ejecuta el archivo descargado.
+
 5.- Abre Arduino IDE y copia el código Alarma.ino
-6.- Conecta tu Arduino y carga el programa
-7.- Verifica que el programa funcione correctamente
+
+6.- Conecta tu Arduino y carga el programa.
+
+7.- Verifica que el programa funcione correctamente.
 
